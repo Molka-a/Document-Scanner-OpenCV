@@ -35,4 +35,11 @@ python scan.py --image sample_images/desk.JPG -i
 * Alternatively, to scan all images in a directory without any input:
 ```
 python scan.py --images sample_images
+
+### References 🔗
+
+OpenCV Documentation
+Line Segment Detector (LSD)
+Inspired by Edureka Document Scanner Tutorial
 ```
+
