@@ -23,23 +23,11 @@ This project makes use of the transform and imutils modules from pyimagesearch (
 
 <img src="https://github.com/andrewdcampbell/doc_scanner/blob/master/sample_images/dollar_bill.JPG" width="350"> <img src="https://github.com/andrewdcampbell/doc_scanner/blob/master/output/dollar_bill.JPG" width="350">
 
-
-### Usage
-```
-python scan.py (--images <IMG_DIR> | --image <IMG_PATH>) [-i]
-```
-* The `-i` flag enables interactive mode, where you will be prompted to click and drag the corners of the document. For example, to scan a single image with interactive mode enabled:
-```
-python scan.py --image sample_images/desk.JPG -i
-```
-* Alternatively, to scan all images in a directory without any input:
-```
-python scan.py --images sample_images
-
 ### References 🔗
 
 OpenCV Documentation
 Line Segment Detector (LSD)
 Inspired by Edureka Document Scanner Tutorial
 ```
+
 
